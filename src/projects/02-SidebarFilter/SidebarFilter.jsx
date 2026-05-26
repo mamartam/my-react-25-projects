@@ -43,18 +43,15 @@ function SidebarFilter() {
       <main className={styles.main}>
         <section className={styles["filters-box"]}>
           {categories.map((item) => (
-            <>
-              <label key={item}>
-                <input
-                  type="radio"
-                  name="category"
-                  value={item}
-                  onChange={handleChange}
-                />
-                {item}
-              </label>
-              <br />
-            </>
+            <label key={item}>
+              <input
+                type="radio"
+                name="category"
+                value={item}
+                onChange={handleChange}
+              />
+              {item}
+            </label>
           ))}
         </section>
 
