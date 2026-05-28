@@ -4,6 +4,7 @@ import RandomColor from "./projects/03-random-color/RandomColor";
 import StarRating from "./projects/04-star-rating/StarRating";
 import StepProgress from "./projects/05-step-progress/StepProgress";
 import ImagesSlider from "./projects/06-image-slider/ImagesSlider";
+import ProductReviewsTab from "./projects/07-product-reviews-tab/ProductReviewsTab";
 
 function App() {
   return (
@@ -14,9 +15,15 @@ function App() {
       {/* <StarRating numberOfStars={10} /> */}
       {/* <StepProgress numberOfSteps={8} /> */}
 
-      <ImagesSlider
+      {/* <ImagesSlider
         url={"https://api.thecatapi.com/v1/images/search"}
         limit={"10"}
+      /> */}
+
+      <ProductReviewsTab
+        url={"https://jsonplaceholder.typicode.com/comments?"}
+        limit={"10"}
+        numberOfStars={5}
       />
     </>
   );
