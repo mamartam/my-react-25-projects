@@ -5,6 +5,8 @@ import StarRating from "./projects/04-star-rating/StarRating";
 import StepProgress from "./projects/05-step-progress/StepProgress";
 import ImagesSlider from "./projects/06-image-slider/ImagesSlider";
 import ProductReviewsTab from "./projects/07-product-reviews-tab/ProductReviewsTab";
+import LoadMoreButton from "./projects/08-load-more-button/LoadMoreButton";
+import DynamicBlogFeed from "./projects/09-dynamic-blog-feed/DynamicBlogFeed";
 
 function App() {
   return (
@@ -20,11 +22,14 @@ function App() {
         limit={"10"}
       /> */}
 
-      <ProductReviewsTab
+      {/* <ProductReviewsTab
         url={"https://jsonplaceholder.typicode.com/comments?"}
         limit={"10"}
         numberOfStars={5}
-      />
+      /> */}
+
+      {/* <LoadMoreButton /> */}
+      <DynamicBlogFeed url={"https://dummyjson.com/posts"} pageSize={"50"} />
     </>
   );
 }

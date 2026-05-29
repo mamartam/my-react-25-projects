@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  background-color: lightblue;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.comments {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.commnt-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+
+  padding: 2rem;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.load-more-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  cursor: pointer;
+}
