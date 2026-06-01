@@ -9,6 +9,9 @@ import LoadMoreButton from "./projects/08-load-more-button/LoadMoreButton";
 import DynamicBlogFeed from "./projects/09-dynamic-blog-feed/DynamicBlogFeed";
 import RecursiveNavigationMenu from "./projects/10-recursive-navigation-menu/RecursiveNavigationMenu";
 import menus from "./projects/10-recursive-navigation-menu/data";
+import ThreadedComments from "./projects/11-threaded-comments/ThreadedComments";
+
+import arrayOfData from "./projects/11-threaded-comments/data";
 function App() {
   return (
     <>
@@ -32,7 +35,8 @@ function App() {
       {/* <LoadMoreButton /> */}
       {/* <DynamicBlogFeed url={"https://dummyjson.com/posts"} pageSize={"50"} /> */}
 
-      <RecursiveNavigationMenu menus={menus} />
+      {/* <RecursiveNavigationMenu menus={menus} /> */}
+      <ThreadedComments arrayOfData={arrayOfData} />
     </>
   );
 }
