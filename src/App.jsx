@@ -12,6 +12,9 @@ import menus from "./projects/10-recursive-navigation-menu/data";
 import ThreadedComments from "./projects/11-threaded-comments/ThreadedComments";
 
 import arrayOfData from "./projects/11-threaded-comments/data";
+import FileExplorer from "./projects/12-file-explorer/FileExplorer";
+
+import fileData from "./projects/12-file-explorer/data";
 function App() {
   return (
     <>
@@ -36,7 +39,8 @@ function App() {
       {/* <DynamicBlogFeed url={"https://dummyjson.com/posts"} pageSize={"50"} /> */}
 
       {/* <RecursiveNavigationMenu menus={menus} /> */}
-      <ThreadedComments arrayOfData={arrayOfData} />
+      {/* <ThreadedComments arrayOfData={arrayOfData} /> */}
+      <FileExplorer fileData={fileData} />
     </>
   );
 }
