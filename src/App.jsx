@@ -15,6 +15,8 @@ import arrayOfData from "./projects/11-threaded-comments/data";
 import FileExplorer from "./projects/12-file-explorer/FileExplorer";
 
 import fileData from "./projects/12-file-explorer/data";
+import QRCodeGenerator from "./projects/13-qr-code-generator/QRCodeGenerator";
+import ThemeSwitch from "./projects/14-theme-switch/ThemeSwitch";
 function App() {
   return (
     <>
@@ -40,7 +42,10 @@ function App() {
 
       {/* <RecursiveNavigationMenu menus={menus} /> */}
       {/* <ThreadedComments arrayOfData={arrayOfData} /> */}
-      <FileExplorer fileData={fileData} />
+      {/* <FileExplorer fileData={fileData} /> */}
+
+      {/* <QRCodeGenerator /> */}
+      {/* <ThemeSwitch /> */}
     </>
   );
 }
