@@ -17,6 +17,8 @@ import FileExplorer from "./projects/12-file-explorer/FileExplorer";
 import fileData from "./projects/12-file-explorer/data";
 import QRCodeGenerator from "./projects/13-qr-code-generator/QRCodeGenerator";
 import ThemeSwitch from "./projects/14-theme-switch/ThemeSwitch";
+import ScrollIndicator from "./projects/15-scrollIndicator/ScrollIndicator";
+import BackToTopButton from "./projects/16-back-to-top-button/BackToTopButton";
 function App() {
   return (
     <>
@@ -46,6 +48,8 @@ function App() {
 
       {/* <QRCodeGenerator /> */}
       {/* <ThemeSwitch /> */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <BackToTopButton url={"https://jsonplaceholder.typicode.com/posts"} />
     </>
   );
 }
